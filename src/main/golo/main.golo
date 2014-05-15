@@ -7,8 +7,6 @@ import m33ki2.server
 import m33ki2.http.exchange
 import m33ki2.fs
 
-#import org.simpleframework.http.Status
-
 augment java.util.ArrayList {
   function extract = |this, start, end| {
     if this: size() < (end - start) {
