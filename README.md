@@ -23,7 +23,7 @@ meeki II
 
 *see `src/main/golo/tests/tests.golo`*
 
-##Run functional tests
+##Run stress tests
 
     ./stress.sh
 
